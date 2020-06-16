@@ -176,10 +176,6 @@ grey #D3D3D3
     cursor: pointer;
   }
 
-  .box:hover{
-    border: 1px solid #EC5242;
-  }
-
   .box-icon{
     font-size: 3rem;
     font-weight: bolder;
@@ -196,8 +192,12 @@ grey #D3D3D3
     color: #272A31;
   }
 
+  .box:hover{
+    border: 1px solid #EC5242;
+  }
+
   .see-prog{
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-variant: small-caps;
     text-align: center;
     padding-top: 1rem;
@@ -207,6 +207,33 @@ grey #D3D3D3
     color: #D3D3D3;
   }
  
+  .feature{
+    width: 18%;
+  }
+
+.speaker-container{
+   background: lawngreen; 
+}
+
+.speaker-grid{
+  display:grid;
+  grid-template-columns: repeat(2 , 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+ .speaker{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+ }
+
+.speaker-img{
+  background: aqua;
+  width: 2rem;
+  height: 2rem;
+}
 
 
  /* https://cdn.pixabay.com/photo/2014/07/14/21/53/cobblestones-393455__340.jpg */
