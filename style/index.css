@@ -195,6 +195,17 @@ grey #D3D3D3
     line-height: 1.5rem;
     color: #272A31;
   }
+
+  .see-prog{
+    font-size: 1rem;
+    font-variant: small-caps;
+    text-align: center;
+    padding-top: 1rem;
+    width: 20%;
+    margin: 0 auto;
+    text-decoration: underline;
+    color: #D3D3D3;
+  }
  
 
 
