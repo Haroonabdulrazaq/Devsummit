@@ -138,11 +138,65 @@ grey #D3D3D3
  /* Main-Program Style */
 
  .main-program{
-   height: 60vh;
-   background: url("https://media.istockphoto.com/photos/dust-scratches-black-background-distressed-layer-picture-id1166511133?b=1&k=6&m=1166511133&s=170667a&w=0&h=K1HdZpnk-nx5L8KCz3uJHGd_MO91VKfxG_nfqw6FB8g=")no-repeat;
+   /* height: 60vh; */
+   background: url("https://cdn.pixabay.com/photo/2016/11/30/12/16/question-mark-1872665__340.jpg")no-repeat;
    background-size: cover;
    background-position: center;
+   padding: 2rem;
  }
+
+ .main-head{
+   font-size: 1.8rem;
+   text-align: center;
+   padding-bottom: 0.5rem;
+   width: 15%;
+   margin: 0 auto;
+   position: relative;
+   border-bottom: 2px solid #EC5242;
+  }
+
+  .main-event{
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 5px;
+    padding-top:0.5em ;
+  }
+  
+  .box{
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #D3D3D3;
+    opacity: 0.7;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .box:hover{
+    border: 1px solid #EC5242;
+  }
+
+  .box-icon{
+    font-size: 3rem;
+    font-weight: bolder;
+  }
+
+  .box-title{
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+
+  .box-text{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #272A31;
+  }
+ 
+
 
  /* https://cdn.pixabay.com/photo/2014/07/14/21/53/cobblestones-393455__340.jpg */
  /* https://cdn.pixabay.com/photo/2015/09/18/11/38/surface-945444__340.jpg */
