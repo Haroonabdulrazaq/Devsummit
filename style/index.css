@@ -68,10 +68,8 @@ grey #D3D3D3
    opacity: 0.8;
  }
 
- .links:hover ,.links:active{
-   border-bottom: 3px solid #EC5242;
+ .links:hover{
    cursor: pointer;  
-   transition: all 0.9s cubic-bezier(0.165, 0.84, 0.44, 1);
    opacity: 1;
  }
 
@@ -152,8 +150,22 @@ grey #D3D3D3
    width: 15%;
    margin: 0 auto;
    position: relative;
-   border-bottom: 2px solid #EC5242;
   }
+
+  .main-head::before{
+    content: "";
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+     background: #EC5242;
+     transform: scaleX(0.3);
+     transition: all 0.6s ease-in-out 0s;
+  }
+   .main-head:hover::before{
+     transform: scaleX(1);
+   } 
 
   .main-event{
     display: grid;
@@ -190,10 +202,6 @@ grey #D3D3D3
     font-size: 1rem;
     line-height: 1.5rem;
     color: #272A31;
-  }
-
-  .box:hover{
-    border: 1px solid #EC5242;
   }
 
   .see-prog{
