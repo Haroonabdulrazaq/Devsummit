@@ -219,31 +219,66 @@ grey #D3D3D3
     width: 18%;
   }
 
-.speaker-container{
-   background: lawngreen; 
-}
-
 .speaker-grid{
   display:grid;
   grid-template-columns: repeat(2 , 1fr);
   grid-template-rows: repeat(3, 1fr);
-  grid-gap: 10px;
+  grid-gap: 1rem;
+  width: 60%;
+  margin: 0 auto;
 }
 
  .speaker{
   display:flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
  }
 
+ .speaker div{
+  padding-left: 1rem;
+ }
+
+ .speaker-img1{
+  background: url("https://wurreka.com/assets/images/software_architecture_reinvented_small.jpg")no-repeat;
+}
+
+.speaker-img2{
+  background: url("https://wurreka.com/assets/images/ride_the_cloud_with_confidence_small.jpg")no-repeat; 
+}
+
+.speaker-img3{
+  background: url("https://wurreka.com/assets/images/marching_to_a_new_beat_small.jpg")no-repeat;
+}
+
+.speaker-img4{
+  background: url("https://wurreka.com/assets/images/keep_pase_with_the_involving_web_small.jpg")no-repeat; 
+}
+
+.speaker-img5{
+  background: url("https://wurreka.com/assets/images/become_a_well_rounded_programmer_small.jpg")no-repeat;
+}
+
+.speaker-img6{
+  background: url("https://wurreka.com/assets/images/leaaddev-banner-small.jpg")no-repeat; 
+}
+
 .speaker-img{
-  background: aqua;
-  width: 2rem;
-  height: 2rem;
+  background-size: contain;
+  background-position: center;
+  width: 12rem;
+  height: 10rem;
 }
 
 
- /* https://cdn.pixabay.com/photo/2014/07/14/21/53/cobblestones-393455__340.jpg */
- /* https://cdn.pixabay.com/photo/2015/09/18/11/38/surface-945444__340.jpg */
- /* https://media.istockphoto.com/photos/dust-scratches-black-background-distressed-layer-picture-id1166511133?b=1&k=6&m=1166511133&s=170667a&w=0&h=K1HdZpnk-nx5L8KCz3uJHGd_MO91VKfxG_nfqw6FB8g= */
+
+.speaker-text{
+  font-size: 0.8rem;
+}
+
+.speaker-description{
+margin-bottom: 1rem;
+}
+
+
+ 
