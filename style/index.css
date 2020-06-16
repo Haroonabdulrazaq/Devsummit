@@ -68,10 +68,10 @@ grey #D3D3D3
    opacity: 0.8;
  }
 
- .links:hover .links:active{
+ .links:hover ,.links:active{
    border-bottom: 3px solid #EC5242;
    cursor: pointer;  
-   transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+   transition: all 0.9s cubic-bezier(0.165, 0.84, 0.44, 1);
    opacity: 1;
  }
 
@@ -106,6 +106,44 @@ grey #D3D3D3
    z-index: 2;
    width: 100%;
    height: 100%;
-   background: #D3D3D3;
+  background: #D3D3D3;  
    opacity: 0.7;
  }
+
+ .overlay .top-text{
+  font-size: 2.5rem;
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+ }
+
+ .overlay .middle-text{
+  font-size: 1rem;
+  position: absolute;
+  bottom: 10rem;
+  left: 4rem;
+  width: 40%;
+  line-height: 2rem;
+ }
+
+ .overlay .bottom-text{
+  font-size: 2rem;
+  position: absolute;
+  bottom: 4rem;
+  left: 4rem;
+  width: 40%;
+ text-transform: capitalize;
+ }
+
+ /* Main-Program Style */
+
+ .main-program{
+   height: 60vh;
+   background: url("https://media.istockphoto.com/photos/dust-scratches-black-background-distressed-layer-picture-id1166511133?b=1&k=6&m=1166511133&s=170667a&w=0&h=K1HdZpnk-nx5L8KCz3uJHGd_MO91VKfxG_nfqw6FB8g=")no-repeat;
+   background-size: cover;
+   background-position: center;
+ }
+
+ /* https://cdn.pixabay.com/photo/2014/07/14/21/53/cobblestones-393455__340.jpg */
+ /* https://cdn.pixabay.com/photo/2015/09/18/11/38/surface-945444__340.jpg */
+ /* https://media.istockphoto.com/photos/dust-scratches-black-background-distressed-layer-picture-id1166511133?b=1&k=6&m=1166511133&s=170667a&w=0&h=K1HdZpnk-nx5L8KCz3uJHGd_MO91VKfxG_nfqw6FB8g= */
