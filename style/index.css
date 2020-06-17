@@ -363,6 +363,7 @@ margin-bottom: 1rem;
 .box{
   flex-direction: row;
   padding: 0 1rem;
+  margin: 1rem 0;
 }
 
 .box-icon{
