@@ -51,5 +51,33 @@ body{
     text-decoration: none;
 }
 
+.global-section{
+  padding: 1rem;
+}
+
+.goals{
+  width: 50%;
+  margin: 1rem auto;
+  text-align: center;
+  line-height:2rem;
+  font-size:1rem;
+}
+
+.middle-logo{
+  width:30%;
+  margin:2rem auto;
+  text-align: center;
+  padding: 1rem;
+  border: 0.5px solid #D3D3D3;
+}
+
+.middle-logo i{
+  font-size: 4rem;
+}
+
+.middle-logo a{
+  font-size: 3rem;
+}
+ 
 
 /* https://cdn.pixabay.com/photo/2018/07/21/03/55/girl-3551832__340.jpg */
