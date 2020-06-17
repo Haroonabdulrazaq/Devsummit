@@ -88,12 +88,18 @@ grey #D3D3D3
    padding:0.5rem;
  }
 
+.mobile-nav{
+  display:none;
+}
+
+
  /* Hero style */
  .hero-section{
    height: 80vh;
    background: url("https://cdn.pixabay.com/photo/2016/03/09/09/22/workplace-1245776__340.jpg")no-repeat;
    background-position: center;
    background-size: cover;
+   background-attachment: fixed;
    position: relative;
  }
 
@@ -109,7 +115,7 @@ grey #D3D3D3
  }
 
  .overlay .top-text{
-  font-size: 2.5rem;
+  font-size: 2rem;
   position: absolute;
   top: 4rem;
   left: 4rem;
@@ -120,14 +126,14 @@ grey #D3D3D3
   position: absolute;
   bottom: 10rem;
   left: 4rem;
-  width: 40%;
-  line-height: 2rem;
+  width: 60%;
+  line-height: 1.5rem;
  }
 
  .overlay .bottom-text{
   font-size: 2rem;
   position: absolute;
-  bottom: 4rem;
+  bottom: 0rem;
   left: 4rem;
   width: 40%;
  text-transform: capitalize;
@@ -136,7 +142,6 @@ grey #D3D3D3
  /* Main-Program Style */
 
  .main-program{
-   /* height: 60vh; */
    background: url("https://cdn.pixabay.com/photo/2016/11/30/12/16/question-mark-1872665__340.jpg")no-repeat;
    background-size: cover;
    background-position: center;
@@ -163,6 +168,7 @@ grey #D3D3D3
      transform: scaleX(0.3);
      transition: all 0.6s ease-in-out 0s;
   }
+
    .main-head:hover::before{
      transform: scaleX(1);
    } 
@@ -217,7 +223,11 @@ grey #D3D3D3
     width: 20%;
     margin: 0 auto;
     text-decoration: underline;
-    color: #D3D3D3;
+    opacity: 0.8;
+  }
+
+ .see-prog:hover{
+    opacity: 1;
   }
  
   .feature{
@@ -330,4 +340,45 @@ margin-bottom: 1rem;
 .copyright{
   font-size: 0.7rem;
   line-height: 1.5rem;
+}
+
+/* REsponsiveness */
+
+@media only screen and (max-width:768px){
+ .main-nav, .nav-top{
+   display:none;
+ }
+
+ .mobile-nav{
+   display: block;
+   font-size: 2rem;
+   padding: 1rem;
+ }
+
+ .overlay .top-text{
+  font-size: 1.5rem;
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+ }
+
+ .overlay .middle-text{
+  font-size: 1rem;
+  position: absolute;
+  bottom: 10rem;
+  left: 4rem;
+  width: 90%;
+  line-height: 1.5rem;
+ }
+
+ .overlay .bottom-text{
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 0rem;
+  left: 4rem;
+  width: 40%;
+ text-transform: capitalize;
+ }
+
+ 
 }
