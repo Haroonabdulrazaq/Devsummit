@@ -358,7 +358,7 @@ margin-bottom: 1rem;
  .overlay .top-text{
   font-size: 2.5rem;
   position: absolute;
-  top: 2rem;
+  top: 6rem;
   left: 1rem;
  }
 
@@ -411,7 +411,7 @@ margin-bottom: 1rem;
  
 }
 
-@media only screen and (max-width:400px){
+@media only screen and (max-width:420px){
   .overlay .top-text{
     font-size: 1.5rem;
     top: 15rem;

@@ -123,14 +123,22 @@ button:hover{
 
   .table-wrapper{
     width: 100%;
-    margin: 0 auto;
    }
 
    th,td{
-    text-align: center;
     padding: 0.5rem;
     font-size: 0.7rem;
   }
 
+  @media only screen and (max-width:400px){
+    .table-wrapper{
+      width: 100%;
+     }
 
+     th,td{
+      font-size: 0.7rem;
+      padding:0.2rem;
+    }
+  
+  }
  }
