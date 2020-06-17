@@ -345,6 +345,9 @@ margin-bottom: 1rem;
 /* REsponsiveness */
 
 @media only screen and (max-width:768px){
+  body{
+    background: lawngreen;
+  }
  .main-nav, .nav-top{
    display:none;
  }
@@ -356,26 +359,26 @@ margin-bottom: 1rem;
  }
 
  .overlay .top-text{
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   position: absolute;
-  top: 4rem;
+  top: 1rem;
   left: 4rem;
  }
 
  .overlay .middle-text{
-  font-size: 1rem;
+  font-size: 1.5rem;
   position: absolute;
-  bottom: 10rem;
-  left: 4rem;
-  width: 90%;
-  line-height: 1.5rem;
+  bottom: 16rem;
+  left: 1rem;
+  width: 80%;
+  line-height: 2rem;
  }
 
  .overlay .bottom-text{
   font-size: 1.5rem;
   position: absolute;
   bottom: 0rem;
-  left: 4rem;
+  left: 1rem;
   width: 40%;
  text-transform: capitalize;
  }
@@ -397,6 +400,12 @@ margin-bottom: 1rem;
 .box-title{
   font-size: 1rem;
   padding-left: 0.5rem;
+}
+
+.speaker-grid{
+  display:grid;
+  grid-template-columns: repeat(1 , 1fr);
+  grid-template-rows: repeat(5, 1fr);
 }
  
 }
