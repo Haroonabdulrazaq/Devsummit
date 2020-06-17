@@ -302,5 +302,30 @@ margin-bottom: 1rem;
 .partner-icon i{
  text-align: center;
   font-size: 7rem;
+  opacity: 0.7;
 }
  
+.partner-icon i:hover{
+   opacity: 1;
+ }
+
+/* Footer Style */
+
+.footer-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+
+.nav-left span{
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.copyright{
+  font-size: 0.7rem;
+  line-height: 1.5rem;
+}
