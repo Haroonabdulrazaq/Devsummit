@@ -380,5 +380,23 @@ margin-bottom: 1rem;
  text-transform: capitalize;
  }
 
+ .main-event{
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5 , 1fr);
+}
+
+.box{
+  flex-direction: row;
+  padding: 0 1rem;
+}
+
+.box-icon{
+  font-size: 3rem;
+}
+
+.box-title{
+  font-size: 1rem;
+  padding-left: 0.5rem;
+}
  
 }
