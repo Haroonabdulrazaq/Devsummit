@@ -1,0 +1,55 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+  font-size: 62.5%;
+}
+
+.hero-section{
+  background: url("https://cdn.pixabay.com/photo/2017/01/24/03/53/plant-2004483__340.jpg")no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.overlay{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-evenly;
+  align-items: center;
+  box-shadow: 2px 5px 15px rgba(39,42,49,0.8);
+}
+
+.heading{
+  font-size: 2.5rem;
+}
+
+.info{
+  background: #fff;
+  width: 50%;
+  line-height:1.5rem;
+  font-size:1.5rem;
+  padding:1rem;
+  border-radius:5px;
+  box-shadow: 1px 1px 5px rgba(39,42,49,0.8);
+}
+
+.mail{
+  line-height:1.5rem;
+  font-size:1rem;
+}
+
+.mail p a{
+  text-decoration: underline;
+}
+
+.mail p a:hover{
+    text-decoration: none;
+}
+
+
+/* https://cdn.pixabay.com/photo/2018/07/21/03/55/girl-3551832__340.jpg */
