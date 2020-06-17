@@ -345,9 +345,6 @@ margin-bottom: 1rem;
 /* REsponsiveness */
 
 @media only screen and (max-width:768px){
-  body{
-    background: red;
-  }
  .main-nav, .nav-top{
    display:none;
  }
@@ -361,8 +358,8 @@ margin-bottom: 1rem;
  .overlay .top-text{
   font-size: 2.5rem;
   position: absolute;
-  top: 1rem;
-  left: 4rem;
+  top: 2rem;
+  left: 1rem;
  }
 
  .overlay .middle-text{
@@ -405,7 +402,27 @@ margin-bottom: 1rem;
 .speaker-grid{
   display:grid;
   grid-template-columns: repeat(1 , 1fr);
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-rows: repeat(6, 1fr);
 }
  
+.partner-icon i{
+   font-size: 2rem;
+ }
+ 
+}
+
+@media only screen and (max-width:400px){
+  .overlay .top-text{
+    font-size: 1.5rem;
+    top: 15rem;
+    left: 1rem;
+   }
+  
+   .overlay .middle-text{
+  display: none;
+   }
+  
+   .overlay .bottom-text{
+    display: none;
+   }
 }
