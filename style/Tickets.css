@@ -76,7 +76,7 @@ tr:nth-child(even):hover {
 
  /* Lunch Section style */
 
- .lunch-section{
+ .lunch-section{ 
   padding: 1rem;
  }
 
@@ -106,4 +106,31 @@ button:hover{
     color: white;
     border-radius: 0.3rem;
     border: none;
+ }
+
+ @media only screen and (max-width:768px){
+  .mobile-nav{
+    display: block;
+    font-size: 2rem;
+    padding: 1rem;
+  }
+ 
+  .step{
+    width: 70%;
+    font-size: 1rem;
+    padding: 0.5rem;
+  } 
+
+  .table-wrapper{
+    width: 100%;
+    margin: 0 auto;
+   }
+
+   th,td{
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 0.7rem;
+  }
+
+
  }
