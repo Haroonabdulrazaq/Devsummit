@@ -17,7 +17,6 @@ body{
 }
 
 .overlay{
-  /* background: lawngreen; */
   padding: 2rem;
 }
 
@@ -33,6 +32,7 @@ body{
    border-radius: 20px;
    border: 0.5px solid #272A31;
    list-style-type: none;
+   cursor: pointer;
  } 
 
  .step .step-list{
@@ -51,6 +51,7 @@ body{
  .table{
    width: 100%;
    border: 5px dashed #EC5242;
+   cursor: pointer;
  }
 
  th,td{
@@ -71,4 +72,18 @@ tr:nth-child(even):hover {
 
  td .orange{
   font-weight: 700;
+ }
+
+ /* Lunch Section style */
+
+ .lunch-section{
+  padding: 1rem;
+ }
+
+ .lunch-table{
+  border: 1px solid #d3d3d3;
+ }
+
+ .step2{
+  border: 0.5px solid #D3D3D3;
  }

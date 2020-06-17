@@ -32,12 +32,14 @@
           <li class="links main-head"><a href="#" class="dark">Program</a> </li>
           <li class="links main-head"><a href="#" class="dark">Sponsor</a></li>
           <li class="links main-head"><a href="#" class="dark">Tickets</a></li>
-          <li class="links"> <a href="../index.html" class="dark DevSummit">DevSummit</a> </li>
+          <li class="links "> <a href="../index.html" class="orange DevSummit">DevSummit</a> </li>
         </ul>
       </div>
     </div>
   </nav>
-  <div class="hero-section">
+  <main>
+    <!-- Hero Section -->
+    <div class="hero-section">
     <div class="overlay">
        <div class="main-head">
          <h3>Select Tickets</h3>
@@ -62,23 +64,88 @@
             <td>27th May (Wed)</td>
           </tr>
           <tr>
-            <td>Normal</td>
-            <td class="orange">#1,000</td>
-            <td  class="orange">#7,000</td>
-            <td  class="orange">#11,000</td>
-            <td  class="orange"><s>#0</s></td>
+            <td>Guest Speaker</td>
+            <td class="orange">#15,000 <input type="radio" name="guest-speaker"/></td>
+            <td  class="orange">#5,000 <input type="radio" name="guest-speaker"/></td>
+            <td  class="orange">#10,000 <input type="radio" name="guest-speaker"/></td>
+            <td  class="orange"><s>#0</s> <input type="radio" name="guest-speaker"/></td>
+          </tr>
+          <tr>
+            <td>VIP</td>
+            <td class="orange">#1,000 <input type="radio" name="VIP"/></td>
+            <td  class="orange">#7,000 <input type="radio" name="VIP"/></td>
+            <td  class="orange">#11,000 <input type="radio" name="VIP"/></td>
+            <td  class="orange"><s>#0</s> <input type="radio" name="VIP"/></td>
           </tr>
           <tr>
             <td>Students</td>
-            <td class="orange">#500</td>
-            <td  class="orange">#10,000</td>
-            <td  class="orange">#13,000</td>
-            <td  class="orange"><s>#0</s></td>
+            <td class="orange">#500 <input type="radio" name="Students"/> </td>
+            <td  class="orange">#1,000 <input type="radio" name="Students"/></td>
+            <td  class="orange">#3,000 <input type="radio" name="Students"/></td>
+            <td  class="orange"><s>#0</s> <input type="radio" name="Students"/></td>
           </tr>
         </table>
        </div>
   </div> 
+  </div>
+<!-- Lunch Section -->
+  <div class="lunch-section">
+    <div class="main-head ">
+      <h3>Select Lunch</h3>
+    </div>
+    <ul class="step step2">
+      <li class="step-list"><span class="orange">Step 2 </span> Select your lunch for each day</li>
+    </ul>
+
+  <div class="table-wrapper ">
+  <table  class="table  lunch-table">
+    <tr>
+      <th>Lunch</th>
+      <th> Menu 1</th>
+      <th colspan="2">Menu 2</th> 
+      <th>Menu 3</th>
+    </tr>
+    <tr>
+      <td>Date</td>
+      <td>25th, May(Mon)</td>
+      <td>26th, May(Tue)</td> 
+      <td>25-26th May</td>
+      <td>27th May (Wed)</td>
+    </tr>
+  
+    <tr>
+      <td>VIP</td>
+      <td class="orange">#1,000 <input type="radio" name="Launch-VIP"/></td>
+      <td  class="orange">#2,000 <input type="radio" name="Launch-VIP"/></td>
+      <td  class="orange">#1,000 <input type="radio" name="Launch-VIP"/></td>
+      <td  class="orange"><s>#0</s> <input type="radio" name="Launch-VIP"/></td>
+    </tr>
+    <tr>
+      <td>Students</td>
+      <td class="orange">#500 <input type="radio" name="Lunch-students"/> </td>
+      <td  class="orange">#10,000 <input type="radio" name="Lunch-students"/></td>
+      <td  class="orange">#13,000 <input type="radio" name="Lunch-students"/></td>
+      <td  class="orange"><s>#0</s> <input type="radio" name="Lunch-students"/></td>
+    </tr>
+  </table>
+</div>
+</div>
 
 
+
+</main>
+
+
+<footer class="footer bg-dark">
+  <div class="footer-container">
+    <div class="nav-left"><i class="fab fa-dev grey"></i><span class="grey">DevSummit2020</span></div>
+    <div class="copyright grey">
+      <p>DevSummit 2020 Location: National Art theatre, Lagos, Nigeria</p>
+      <p>2020| May| 18(FRI)</p>
+     <p>The 2020 digital series features 7 multi-stream conferences,</p>
+     <p>150+ international speakers, 250+ breakout sessions, 40+ lively workshops,spread out over six months.</p> 
+    </div>
+  </div>
+</footer>
 </body>
 </html>
