@@ -1,6 +1,7 @@
-# Newsweek
-Bootstrap Project [Microverse]
-This project is focused on buiding responsiveness(i.e across all media size) using Bootstrap, by cloning Newsweek landing page
+# Devsummit
+Capstone Project [Microverse]
+HTML & CSS Capstone Project is an online DevSummit website
+Capstone Project with design provided by Cindy Shin,  
 
 ![screenshot](./image/Screenshot.png)
  
@@ -8,9 +9,10 @@ This project is focused on buiding responsiveness(i.e across all media size) usi
 
 - HTML5
 - CSS3
-- Bootstrap
+      [Flex]
+      [Grid]
 
-[LIVE DEMO LINK](https://haroonabdulrazaq.github.io/Newsweek/)
+[LIVE DEMO LINK](https://haroonabdulrazaq.github.io/Devsummit/)
 
 
 
@@ -24,10 +26,10 @@ From your command line, first clone the project:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/Haroonabdulrazaq/Newsweek.git
+$ git clone https://github.com/Haroonabdulrazaq/Devsummit.git
 
 # Go into the repository
-$ cd Newsweek
+$ cd Devsummit
 
 ```
 
@@ -47,6 +49,7 @@ Give a ⭐️ if you like this project!
 
 - I acknowledge Microverse, the global remote school for developers.
 - I appreciate The Odin Project for providing the project and making lessons simple to learn.
+- I appreciate Cindy Shin for providing me with the design
 
 ## 📝 License
 
