@@ -9,3 +9,66 @@ body{
   font-size: 62.5%;
 }
 
+.hero-section{
+  background: url("https://cdn.pixabay.com/photo/2017/05/19/06/22/desktop-2325627__340.jpg")no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.overlay{
+  /* background: lawngreen; */
+  padding: 2rem;
+}
+
+.main-head{
+  width: 18%;
+ }
+
+ .step{
+   width: 30%;
+   margin: 2rem auto;
+   font-size: 1rem;
+   padding: 1rem;
+   border-radius: 20px;
+   border: 0.5px solid #272A31;
+   list-style-type: none;
+ } 
+
+ .step .step-list{
+   display: inline;
+ }
+
+ .step-list{
+  font-weight: 700;
+}
+
+ .table-wrapper{
+  width: 50%;
+  margin: 0 auto;
+ }
+
+ .table{
+   width: 100%;
+   border: 5px dashed #EC5242;
+ }
+
+ th,td{
+   text-align: center;
+   padding: 0.7rem;
+   font-size: 1rem;
+ }
+
+ tr:nth-child(even) {
+  background: white;
+  opacity: 0.7;
+}
+
+tr:nth-child(even):hover {
+  background: white;
+  opacity: 1;
+}
+
+ td .orange{
+  font-weight: 700;
+ }
