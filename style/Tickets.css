@@ -87,3 +87,23 @@ tr:nth-child(even):hover {
  .step2{
   border: 0.5px solid #D3D3D3;
  }
+
+button{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+button:hover{
+  opacity:1;
+}
+ 
+ .checkout{
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 30%;
+    height: 20%;
+    margin: 4rem 35%;
+    color: white;
+    border-radius: 0.3rem;
+    border: none;
+ }
