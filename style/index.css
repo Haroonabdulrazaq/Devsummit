@@ -155,6 +155,7 @@ grey #D3D3D3
    width: 15%;
    margin: 0 auto;
    position: relative;
+   cursor: pointer;
   }
 
   .main-head::before{
