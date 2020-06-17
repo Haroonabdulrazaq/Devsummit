@@ -346,7 +346,7 @@ margin-bottom: 1rem;
 
 @media only screen and (max-width:768px){
   body{
-    background: lawngreen;
+    background: red;
   }
  .main-nav, .nav-top{
    display:none;
