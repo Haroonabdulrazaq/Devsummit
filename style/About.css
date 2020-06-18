@@ -150,7 +150,7 @@ body {
 
   .past-grid {
     flex-direction: column;
-    padding: 1rem;
+    padding: 0.5rem;
   }
 
 }
