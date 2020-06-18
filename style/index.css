@@ -352,8 +352,8 @@ a {
     padding: 1rem;
   }
 
-  .top-text{
-    font-size:1.1rem;
+  .top-text {
+    font-size: 1.1rem;
   }
 
   .overlay .middle-text {
@@ -398,10 +398,10 @@ a {
   }
 
   .overlay .middle-text {
-    font-size:0.7rem;
+    font-size: 0.7rem;
   }
 
   .overlay .bottom-text {
-    font-size:0.6rem;
+    font-size: 0.6rem;
   }
 }

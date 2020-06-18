@@ -15,6 +15,20 @@ brightest minds in the industry assemble every year  to examine the changing rol
 
 [LIVE DEMO LINK](https://haroonabdulrazaq.github.io/Devsummit/)
 
+## Work Done 🔧
+
+- Use semantic HTML tags.
+- Use CSS selectors correctly.
+- Use HTML elements box model (margin, padding, width, height).
+- Use industry-standard tools (flexbox) to place elements in the page.
+- Ability to create UIs adaptable to different screen sizes using mediaqueries.
+- Apply front-end best practices.
+- Ability to create UIs adjusted to given designs.
+- Strong English written and verbal communication.
+- Ability to communicate information effectively to technical and non-technical people.
+- Ability to translate business requirements into software solutions.
+- Ability to work well in a fast-paced environment under deadlines.
+- Ability to perform tasks and complete projects with minimal supervision.
 
 
 # Getting Started 🚀
