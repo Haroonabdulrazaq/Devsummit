@@ -108,7 +108,7 @@ body {
 }
 
 .past1 + .past2 {
-  margin-left: 1rem;
+  margin: 1rem;
 }
 
 .past1 {
@@ -147,4 +147,10 @@ body {
   .middle-logo a {
     font-size: 1.5rem;
   }
+
+  .past-grid {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
 }
