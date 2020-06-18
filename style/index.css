@@ -242,7 +242,7 @@ a {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-gap: 1rem;
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -382,9 +382,9 @@ a {
   }
 
   .speaker-grid {
-    display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, 1fr);
+    width: 100%;
   }
 
   .partner-icon i {
