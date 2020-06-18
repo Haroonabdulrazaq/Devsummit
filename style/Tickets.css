@@ -149,11 +149,9 @@ button:hover {
     color: white;
     border-radius: 0.2rem;
   }
-
 }
 
 @media only screen and (max-width: 400px) {
- 
   .table-wrapper {
     width: 100%;
   }
