@@ -24,7 +24,7 @@ body {
   width: 18%;
 }
 
-.select-tickets{
+.select-tickets {
   font-size: 1.5rem;
 }
 
@@ -102,10 +102,10 @@ button:hover {
   opacity: 1;
 }
 
-.btn-wrapper{
-display:flex;
-justify-content: center;
-padding: 1rem;
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
 }
 
 .checkout {

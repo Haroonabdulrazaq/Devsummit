@@ -127,7 +127,7 @@ a {
   text-align: center;
 }
 
- .middle-text {
+.middle-text {
   font-size: 2rem;
   width: 60%;
   margin: 0 auto;
@@ -135,7 +135,7 @@ a {
   text-align: center;
 }
 
- .bottom-text {
+.bottom-text {
   font-size: 2rem;
   width: 60%;
   margin: 0 auto;
@@ -284,9 +284,9 @@ a {
 
 .speaker-img {
   background-size: contain;
-  background-position: center;  
+  background-position: center;
   width: 12rem;
-  height: 10rem;  
+  height: 10rem;
 }
 
 .speaker-text {
@@ -362,9 +362,9 @@ a {
     width: 80%;
   }
 
- .bottom-text {
-  font-size: 1.4rem;
-}
+  .bottom-text {
+    font-size: 1.4rem;
+  }
 
   .main-event {
     grid-template-columns: 1fr;
@@ -409,19 +409,16 @@ a {
   .footer-container .nav-left {
     padding-bottom: 1rem;
   }
-
 }
 
 @media only screen and (max-width: 420px) {
-  .top-text{
+  .top-text {
     font-size: 1.2rem;
   }
-  
+
   .middle-text {
     font-size: 1.5rem;
     width: 90%;
     line-height: 1.8rem;
   }
-
-
 }
