@@ -397,6 +397,15 @@ a {
   .partner-icon i {
     font-size: 2rem;
   }
+
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer-container .nav-left {
+    padding-bottom: 1rem;
+  }
+
 }
 
 @media only screen and (max-width: 420px) {
