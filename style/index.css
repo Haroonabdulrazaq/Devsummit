@@ -259,7 +259,7 @@ a {
 }
 
 .speaker-img1 {
-  background: url("https://wurreka.com/assets/images/software_architecture_reinvented_small.jpg") no-repeat;
+  background: url("https://wurreka.com/assets/images/software_architecture_reinvented_small.jpg ") no-repeat;
 }
 
 .speaker-img2 {
@@ -284,13 +284,13 @@ a {
 
 .speaker-img {
   background-size: contain;
-  background-position: center;
+  background-position: center;  
   width: 12rem;
-  height: 10rem;
+  height: 10rem;  
 }
 
 .speaker-text {
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .speaker-description {
@@ -394,6 +394,10 @@ a {
     margin: 0 auto;
   }
 
+  .partner-icon {
+    padding: 1rem;
+  }
+
   .partner-icon i {
     font-size: 2rem;
   }
@@ -409,9 +413,15 @@ a {
 }
 
 @media only screen and (max-width: 420px) {
+  .top-text{
+    font-size: 1.2rem;
+  }
+  
   .middle-text {
     font-size: 1.5rem;
     width: 90%;
-    line-height: 2rem;
+    line-height: 1.8rem;
   }
+
+
 }
