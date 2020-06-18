@@ -24,6 +24,10 @@ body {
   width: 18%;
 }
 
+.select-tickets{
+  font-size: 1.5rem;
+}
+
 .step {
   width: 30%;
   margin: 2rem auto;
