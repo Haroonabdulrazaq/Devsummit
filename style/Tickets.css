@@ -126,7 +126,7 @@ button:hover {
   }
 
   .step {
-    width: 70%;
+    width: 80%;
     font-size: 1rem;
     padding: 0.5rem;
   }
@@ -141,15 +141,26 @@ button:hover {
     font-size: 0.7rem;
   }
 
-  @media only screen and (max-width: 400px) {
-    .table-wrapper {
-      width: 100%;
-    }
+  .checkout {
+    font-size: 0.7rem;
+    padding: 0.5rem;
+    width: 50%;
+    height: 15%;
+    color: white;
+    border-radius: 0.2rem;
+  }
 
-    th,
-    td {
-      font-size: 0.7rem;
-      padding: 0.2rem;
-    }
+}
+
+@media only screen and (max-width: 400px) {
+ 
+  .table-wrapper {
+    width: 100%;
+  }
+
+  th,
+  td {
+    font-size: 0.7rem;
+    padding: 0.2rem;
   }
 }
