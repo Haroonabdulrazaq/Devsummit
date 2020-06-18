@@ -352,9 +352,13 @@ a {
     padding: 1rem;
   }
 
+  .top-text{
+    font-size:1.1rem;
+  }
+
   .overlay .middle-text {
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1rem;
+    line-height: 1.2rem;
   }
 
   .main-event {
@@ -390,16 +394,14 @@ a {
 
 @media only screen and (max-width: 420px) {
   .overlay .top-text {
-    font-size: 1.5rem;
-    top: 15rem;
-    left: 1rem;
+    font-size: 1rem;
   }
 
   .overlay .middle-text {
-    display: none;
+    font-size:0.7rem;
   }
 
   .overlay .bottom-text {
-    display: none;
+    font-size:0.7rem;
   }
 }
