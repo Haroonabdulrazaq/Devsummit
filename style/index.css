@@ -386,6 +386,11 @@ a {
     padding-left: 0.5rem;
   }
 
+  .feature {
+    width: 70%;
+    font-size: 1.5rem;
+  }
+
   .speaker-grid {
     padding: 1rem;
     grid-template-columns: repeat(1, 1fr);
