@@ -53,6 +53,11 @@ body {
   font-size: 3rem;
 }
 
+.middle-logo a,
+.rick {
+  font-size: 1.2rem;
+}
+
 .mail p a {
   text-decoration: underline;
 }
@@ -79,10 +84,6 @@ body {
   text-align: center;
   padding: 1rem;
   border: 0.5px solid #d3d3d3;
-}
-
-.middle-logo a, .rick {
-  font-size: 1.2rem;
 }
 
 .middle-logo i {
@@ -146,7 +147,7 @@ body {
     line-height: 1.2rem;
     font-size: 1rem;
   }
- 
+
   .goals {
     width: 80%;
     font-size: 1.7rem;
@@ -167,8 +168,8 @@ body {
   }
 }
 
-@media only screen and (max-width: 400px){
- .heading{
-   font-size: 1rem;
- }
+@media only screen and (max-width: 400px) {
+  .heading {
+    font-size: 1rem;
+  }
 }
