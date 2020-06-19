@@ -30,6 +30,7 @@ body {
 
 .heading {
   font-size: 2.5rem;
+  text-align: center;
 }
 
 .info {
@@ -45,6 +46,7 @@ body {
 .mail {
   line-height: 1.5rem;
   font-size: 1rem;
+  text-align: center;
 }
 
 .middle-logo a {
@@ -126,6 +128,14 @@ body {
     display: block;
   }
 
+  .wrapper {
+    padding-bottom: 1rem;
+  }
+
+  .heading {
+    font-size: 1.5rem;
+  }
+
   .fa-bars {
     text-align: left;
   }
@@ -133,6 +143,8 @@ body {
   .info {
     background: #fff;
     width: 90%;
+    line-height: 1.2rem;
+    font-size: 1.2rem;
   }
  
   .goals {
@@ -153,4 +165,10 @@ body {
     flex-direction: column;
     padding: 0.5rem;
   }
+}
+
+@media only screen and (max-width: 400px){
+ .heading{
+   font-size: 1rem;
+ }
 }
