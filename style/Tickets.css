@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 62.5%;
+}
+
+.hero-section {
+  background: url("https://cdn.pixabay.com/photo/2017/05/19/06/22/desktop-2325627__340.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.overlay {
+  padding: 2rem;
+}
+
+.main-head {
+  width: 18%;
+}
+
+.select-tickets {
+  font-size: 1.5rem;
+}
+
+.step {
+  width: 30%;
+  margin: 2rem auto;
+  font-size: 1rem;
+  padding: 1rem;
+  border-radius: 20px;
+  border: 0.5px solid #272a31;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.step-list {
+  font-weight: 700;
+}
+
+.step .step-list {
+  display: inline;
+}
+
+.table-wrapper {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.table {
+  width: 100%;
+  border: 5px dashed #ec5242;
+  cursor: pointer;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 0.7rem;
+  font-size: 1rem;
+}
+
+tr:nth-child(even) {
+  background: white;
+  opacity: 0.7;
+}
+
+tr:nth-child(even):hover {
+  background: white;
+  opacity: 1;
+}
+
+td .orange {
+  font-weight: 700;
+}
+
+/* Lunch Section style */
+
+.lunch-section {
+  padding: 1rem;
+}
+
+.lunch-table {
+  border: 1px solid #d3d3d3;
+}
+
+.step2 {
+  border: 0.5px solid #d3d3d3;
+}
+
+button {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.checkout {
+  font-size: 1.5rem;
+  padding: 1rem;
+  width: 30%;
+  height: 20%;
+  color: white;
+  border-radius: 0.3rem;
+  border: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .mobile-nav {
+    display: block;
+    font-size: 2rem;
+    padding: 1rem;
+  }
+
+  .step {
+    width: 80%;
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+
+  .table-wrapper {
+    width: 100%;
+  }
+
+  th,
+  td {
+    padding: 0.5rem;
+    font-size: 0.7rem;
+  }
+
+  .checkout {
+    font-size: 0.7rem;
+    padding: 0.5rem;
+    width: 50%;
+    height: 15%;
+    color: white;
+    border-radius: 0.2rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .table-wrapper {
+    width: 100%;
+  }
+
+  th,
+  td {
+    font-size: 0.7rem;
+    padding: 0.2rem;
+  }
+}
