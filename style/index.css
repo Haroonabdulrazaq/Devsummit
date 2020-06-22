@@ -422,6 +422,11 @@ a {
   .footer-container .nav-left {
     padding-bottom: 1rem;
   }
+
+.appear{
+  display: inline;
+  transition: all 6s ease-in-out 0s;
+}
 }
 
 @media only screen and (max-width: 420px) {

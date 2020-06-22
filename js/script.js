@@ -1,27 +1,15 @@
 const navbar =  document.querySelector(".mobile-nav");
-const navTop =  document.querySelector(".nav-top");
+const mainNav =  document.querySelector(".main-nav");
+
+let counter =0;
 
 navbar.addEventListener("click", (event) => {
-
-  navTop.classList.add("disappear");
-  console.log("Hello")
-
+    counter++;
+  if(counter%2 == 0){
+    mainNav.classList.add("appear");
+  }else{
+    mainNav.classList.remove("appear");
+  }
+ 
 });
 
-
-
-
-//   navbar.addEventListener("click", (event) => {
-//   console.log("Hello world");
-//   // ;
-// });
-
-// const john = document.getElementById("john-wrapper");
-
-// prev.addEventListener("click", (event) => {
-//   tanya.classList.add("tanya-wrapper");
-//   tanya.classList.remove("disappear");
-
-//   john.classList.add("disappear");
-//   john.classList.remove("john-wrapper");
-// });
