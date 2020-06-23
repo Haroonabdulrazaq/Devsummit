@@ -430,7 +430,7 @@ a {
 
 .appear{
   display: inline;
-  transition: all 6s ease-in-out 0s;
+  transition: all 1s ease-in-out 0s;
 }
 }
 
