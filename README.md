@@ -12,7 +12,7 @@ Brightest minds in the industry assemble every year to examine the changing role
 - CSS3
       [Flex]
       [Grid]
--JavaScript
+- JavaScript
 [LIVE DEMO LINK](https://haroonabdulrazaq.github.io/Devsummit/)
 
 ## Work Done 🔧

@@ -7,21 +7,3 @@ navbar.addEventListener("click", (event) => {
   console.log("Hello")
 
 });
-
-
-
-
-//   navbar.addEventListener("click", (event) => {
-//   console.log("Hello world");
-//   // ;
-// });
-
-// const john = document.getElementById("john-wrapper");
-
-// prev.addEventListener("click", (event) => {
-//   tanya.classList.add("tanya-wrapper");
-//   tanya.classList.remove("disappear");
-
-//   john.classList.add("disappear");
-//   john.classList.remove("john-wrapper");
-// });
