@@ -1,8 +1,8 @@
 # Devsummit
 Capstone Project [Microverse]
-HTML & CSS Capstone Project its an online Developer website called 
-DevSummit (2020) is a curated event jam packed with inspiration and stimulation for software professionals.
-brightest minds in the industry assemble every year  to examine the changing role of software programmers, engineers, developers, managers and architects in order to explore crucial technologies, cutting-edge techniques, and provide essential professional training.
+HTML & CSS Capstone Project it's an online Developer website called 
+DevSummit (2020) it's a curated event jam packed with inspiration and stimulation for software professionals.
+Brightest minds in the industry assemble every year to examine the changing roles of software programmers, engineers, developers, managers and architects in order to explore crucial technologies, cutting-edge techniques, and provide essential professional training.
 
 ![screenshot](./image/Screenshot.png)
  
@@ -12,7 +12,7 @@ brightest minds in the industry assemble every year  to examine the changing rol
 - CSS3
       [Flex]
       [Grid]
-
+- JavaScript
 [LIVE DEMO LINK](https://haroonabdulrazaq.github.io/Devsummit/)
 
 ## Work Done 🔧
