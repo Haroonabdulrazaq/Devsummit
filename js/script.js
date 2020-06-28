@@ -1,7 +1,7 @@
 const navbar =  document.querySelector(".mobile-nav");
 const mainNav =  document.querySelector(".main-nav");
 
-let counter =0;
+let counter = 0;
 
 navbar.addEventListener("click", (event) => {
     counter++;
