@@ -437,8 +437,9 @@ a {
 @media only screen and (max-width: 420px) {
   .nav-links .links {
     font-size: 1.1rem;
-    padding: 1rem 0rem;
+    padding: 1rem 0;
   }
+
   .top-text {
     font-size: 1.2rem;
   }
