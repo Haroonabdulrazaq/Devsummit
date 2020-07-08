@@ -71,7 +71,7 @@ a {
 .nav-links .links {
   display: inline-block;
   font-size: 1rem;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   opacity: 0.8;
 }
 
@@ -338,9 +338,14 @@ a {
   line-height: 1.5rem;
 }
 
-/* REsponsiveness */
+/* Responsiveness */
 
 @media only screen and (max-width: 768px) {
+  .nav-links .links {
+    font-size: 1.2rem;
+    padding: 0.8rem 0.5rem;
+  }
+
   .main-nav,
   .nav-top {
     display: none;
@@ -422,9 +427,19 @@ a {
   .footer-container .nav-left {
     padding-bottom: 1rem;
   }
+
+  .appear {
+    display: inline;
+    transition: all 1s ease-in-out 0s;
+  }
 }
 
 @media only screen and (max-width: 420px) {
+  .nav-links .links {
+    font-size: 1.1rem;
+    padding: 1rem 0;
+  }
+
   .top-text {
     font-size: 1.2rem;
   }

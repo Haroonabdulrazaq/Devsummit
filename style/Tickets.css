@@ -20,10 +20,6 @@ body {
   padding: 2rem;
 }
 
-.main-head {
-  width: 18%;
-}
-
 .select-tickets {
   font-size: 1.5rem;
 }
@@ -119,12 +115,6 @@ button:hover {
 }
 
 @media only screen and (max-width: 768px) {
-  .mobile-nav {
-    display: block;
-    font-size: 2rem;
-    padding: 1rem;
-  }
-
   .step {
     width: 80%;
     font-size: 1rem;
