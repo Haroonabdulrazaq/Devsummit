@@ -14,7 +14,12 @@ Brightest minds in the industry assemble every year to examine the changing role
       [Flex]
       [Grid]
 - JavaScript
+
+## :rocket: Live Demo
 [LIVE DEMO LINK](https://haroonabdulrazaq.github.io/Devsummit/)
+
+## :camera: Presentation 
+https://www.loom.com/share/cf76050169994fea8697825ef33b2a4f
 
 ## Work Done 🔧
 
